@@ -12,7 +12,7 @@ public class Main {
 		String text = Double.toString(Math.abs(b));
 	    int integerPlaces = text.indexOf('.');
 	    int decimalPlaces = text.length() - integerPlaces - 1;
-	    int totalPlaces = integerPlaces + decimalPlaces;
+	    //int totalPlaces = integerPlaces + decimalPlaces;
 	    
 	    return integerPlaces;
 	}
